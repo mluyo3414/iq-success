@@ -23,8 +23,6 @@ orgs, apps, tags, report, target, csv = {}, {}, {}, {}, [], []
 #------------------------------
 # last 3 month
 
-
-
 def main():
 	set_up()
 	header = ['']+date_range
@@ -67,11 +65,8 @@ def main():
 		_row(name)
 		_row(devide())
 		_row(header)
-		# # open critical, root
 		_row(['open critical']+rep_data(name,_open,crit))
-		# # open high, root 
 		_row(['open high']+rep_data(name,_open,high))
-		# # open medium, root
 		_row(['open medium']+rep_data(name,_open,med))
 		_row(devide())
 
@@ -167,12 +162,12 @@ def prune_dict(dictionary, keep_list):
 
 def post_url(url, payload):
 	url = format_url(url)
-	resp = iq_session.post(url, headers=iq_headers, json=payload)
+	resp = iq_session.post(url, headers=iq_headers, json=payload, verify=False)
 	return resp.json()
 
 def get_url(url):
 	url = format_url(url)
-	resp = iq_session.get(url, headers=iq_headers)
+	resp = iq_session.get(url, headers=iq_headers, verify=False)
 	return resp.json()
 
 #-------------------
@@ -264,6 +259,7 @@ def setup_report():
 
 def summation(group, metric):
 	dd = metric["timePeriodStart"]
+	if not dd in report: return
 	if not group in report[dd]:
 		report[dd].update({ group: get_blank_metric(metric)})
 
@@ -383,15 +379,10 @@ def last_scanned(history):
 def onboard_month(history):
 	return None if not history else short(c_eval(history[-1]['evaluationDate']))
 
-
-
-
-
+def get_policy_violations(publicId, reportId):
+    url = f'{iq_url}/api/v2/applications/{publicId}/reports/{reportId}/policy'
+    return get_url(url)
 
 
 if __name__ == "__main__":
     main()
-
-
-
-
