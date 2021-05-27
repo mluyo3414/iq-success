@@ -17,7 +17,7 @@ cred = authorization.split(":")
 iq_session = requests.Session()
 iq_session.auth = requests.auth.HTTPBasicAuth(cred[0], cred[1])
 iq_session.cookies.set('CLM-CSRF-TOKEN', 'api')
-iq_headers = {'X-CSRF-TOKEN': 'api'}
+iq_headers = {'X-CSRF-TOKEN': 'api', 'Content-Type': 'application/json', 'Accept': 'application/json'}
 orgs, apps, tags, report, target, csv = {}, {}, {}, {}, [], []
 
 #------------------------------

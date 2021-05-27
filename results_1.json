@@ -1,0 +1,3091 @@
+{
+    "report": {
+        "2021-02": {
+            "onboarded": [
+                "juiceshop"
+            ],
+            "scanned": [
+                "jenkins",
+                "juiceshop",
+                "webgoat"
+            ],
+            "all": {
+                "mttrLowThreat": [
+                    71
+                ],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [
+                    59
+                ],
+                "mttrCriticalThreat": [
+                    110
+                ],
+                "discoveredCounts": {
+                    "MODERATE": 7,
+                    "SEVERE": 63,
+                    "CRITICAL": 63
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 1
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 67,
+                    "SEVERE": 737,
+                    "CRITICAL": 573
+                }
+            },
+            "target": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 17,
+                    "SEVERE": 133,
+                    "CRITICAL": 104
+                }
+            },
+            "Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 18,
+                    "SEVERE": 171,
+                    "CRITICAL": 146
+                }
+            },
+            "Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "Sandbox Organization": {
+                "mttrLowThreat": [
+                    71
+                ],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [
+                    59
+                ],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 7,
+                    "SEVERE": 63,
+                    "CRITICAL": 63
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 12,
+                    "SEVERE": 113,
+                    "CRITICAL": 89
+                }
+            },
+            "Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [
+                    110
+                ],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 1
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 34,
+                    "SEVERE": 416,
+                    "CRITICAL": 307
+                }
+            },
+            "target_Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 11,
+                    "SEVERE": 74,
+                    "CRITICAL": 55
+                }
+            },
+            "target_Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "target_Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 22,
+                    "CRITICAL": 18
+                }
+            }
+        },
+        "2021-03": {
+            "onboarded": [
+                "lodash"
+            ],
+            "scanned": [
+                "lodash"
+            ],
+            "all": {
+                "mttrLowThreat": [
+                    138
+                ],
+                "mttrModerateThreat": [
+                    138
+                ],
+                "mttrSevereThreat": [
+                    138
+                ],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 1
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 67,
+                    "SEVERE": 737,
+                    "CRITICAL": 574
+                }
+            },
+            "target": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 17,
+                    "SEVERE": 133,
+                    "CRITICAL": 104
+                }
+            },
+            "Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 18,
+                    "SEVERE": 171,
+                    "CRITICAL": 146
+                }
+            },
+            "Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "Sandbox Organization": {
+                "mttrLowThreat": [
+                    138
+                ],
+                "mttrModerateThreat": [
+                    138
+                ],
+                "mttrSevereThreat": [
+                    138
+                ],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 1
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 2,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 12,
+                    "SEVERE": 113,
+                    "CRITICAL": 90
+                }
+            },
+            "Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 34,
+                    "SEVERE": 416,
+                    "CRITICAL": 307
+                }
+            },
+            "target_Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 11,
+                    "SEVERE": 74,
+                    "CRITICAL": 55
+                }
+            },
+            "target_Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "target_Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 22,
+                    "CRITICAL": 18
+                }
+            }
+        },
+        "2021-04": {
+            "onboarded": [],
+            "scanned": [],
+            "all": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 67,
+                    "SEVERE": 737,
+                    "CRITICAL": 574
+                }
+            },
+            "target": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 17,
+                    "SEVERE": 133,
+                    "CRITICAL": 104
+                }
+            },
+            "Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 18,
+                    "SEVERE": 171,
+                    "CRITICAL": 146
+                }
+            },
+            "Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "Sandbox Organization": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 12,
+                    "SEVERE": 113,
+                    "CRITICAL": 90
+                }
+            },
+            "Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 34,
+                    "SEVERE": 416,
+                    "CRITICAL": 307
+                }
+            },
+            "target_Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 11,
+                    "SEVERE": 74,
+                    "CRITICAL": 55
+                }
+            },
+            "target_Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "target_Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 22,
+                    "CRITICAL": 18
+                }
+            }
+        },
+        "2021-05": {
+            "onboarded": [],
+            "scanned": [],
+            "all": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 67,
+                    "SEVERE": 737,
+                    "CRITICAL": 574
+                }
+            },
+            "target": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 17,
+                    "SEVERE": 133,
+                    "CRITICAL": 104
+                }
+            },
+            "Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 18,
+                    "SEVERE": 171,
+                    "CRITICAL": 146
+                }
+            },
+            "Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "Sandbox Organization": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 12,
+                    "SEVERE": 113,
+                    "CRITICAL": 90
+                }
+            },
+            "Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 34,
+                    "SEVERE": 416,
+                    "CRITICAL": 307
+                }
+            },
+            "target_Org1": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 11,
+                    "SEVERE": 74,
+                    "CRITICAL": 55
+                }
+            },
+            "target_Org2": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 37,
+                    "CRITICAL": 31
+                }
+            },
+            "target_Test": {
+                "mttrLowThreat": [],
+                "mttrModerateThreat": [],
+                "mttrSevereThreat": [],
+                "mttrCriticalThreat": [],
+                "discoveredCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "fixedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "waivedCounts": {
+                    "MODERATE": 0,
+                    "SEVERE": 0,
+                    "CRITICAL": 0
+                },
+                "openCountsAtTimePeriodEnd": {
+                    "MODERATE": 3,
+                    "SEVERE": 22,
+                    "CRITICAL": 18
+                }
+            }
+        }
+    },
+    "target": [
+        "bad_components",
+        "move1",
+        "test2",
+        "test3"
+    ],
+    "orgs": {
+        "2078e53f6b184226a44b6f43745b638c": {
+            "name": "Org1",
+            "apps": [
+                "move1",
+                "swift",
+                "test1",
+                "test2",
+                "test31",
+                "test_delete",
+                "test_web"
+            ],
+            "target": [
+                "move1",
+                "test2"
+            ]
+        },
+        "f587eb643b804292bdb44dab601f68e6": {
+            "name": "Org2",
+            "apps": [
+                "test3"
+            ],
+            "target": [
+                "test3"
+            ]
+        },
+        "44bf42bc16f941708c84febdf6efadfa": {
+            "name": "Sandbox Organization",
+            "apps": [
+                "sandbox-application",
+                "webgoat"
+            ],
+            "target": []
+        },
+        "70c55103f5584005b370e28bebc450b3": {
+            "name": "Test",
+            "apps": [
+                "bad_components",
+                "jenkins",
+                "juiceshop",
+                "lodash",
+                "move2",
+                "npm-cache.zip",
+                "py",
+                "rust",
+                "sample_app",
+                "test10",
+                "webgoat2"
+            ],
+            "target": [
+                "bad_components"
+            ]
+        }
+    },
+    "apps": {
+        "bad_components": {
+            "id": "6ca7347b892b41ecb23707d86d97a754",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-30T20:33:53.594-07:00",
+                    "policyEvaluationId": "3e1102539a5e4397b54539dc2445f7c5",
+                    "scanId": "784d0e73aabd436fa9cbe58b1e84f391"
+                },
+                {
+                    "stage": "release",
+                    "evaluationDate": "2020-10-30T20:32:56.797-07:00",
+                    "policyEvaluationId": "db527b637a314e0b88c9fe1c9c509c73",
+                    "scanId": "e28a7852ab7144078ac5b018b7c07bd7"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "jenkins": {
+            "id": "470c5b69163349c9a04095d039f35114",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2021-02-22T09:18:25.824-08:00",
+                    "policyEvaluationId": "bc0cfa807dde44a19c1cb755c90345db",
+                    "scanId": "f08e9f4f854644e0bc814ede50ec556e"
+                },
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-30T20:32:22.269-07:00",
+                    "policyEvaluationId": "812570a4b9d54f7db09cbf196d1e4496",
+                    "scanId": "7fcb370a8c70455f847b8bc911b2ae61"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "juiceshop": {
+            "id": "f60d4e5920ca4d16ba54422b5c855ce3",
+            "history": [
+                {
+                    "stage": "stage-release",
+                    "evaluationDate": "2021-02-18T14:56:49.727-08:00",
+                    "policyEvaluationId": "5962ea17c73e462fb95898ef6bf3804f",
+                    "scanId": "19cec98f7c274abeb726167dc3252c4a"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": 110,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 1
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 90,
+                        "CRITICAL": 80
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 90,
+                        "CRITICAL": 80
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 90,
+                        "CRITICAL": 80
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 90,
+                        "CRITICAL": 80
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "lodash": {
+            "id": "e12227cee37c43ff83d66984667b2fa5",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2021-03-12T08:09:45.129-08:00",
+                    "policyEvaluationId": "561392b96d9449a0a82e049b9835febf",
+                    "scanId": "42dfc9b432dd418eb7ec37bab93e45ff"
+                }
+            ],
+            "metrics": {
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "move1": {
+            "id": "41e2df6305254379a65e871bdb93ed68",
+            "history": [],
+            "metrics": {}
+        },
+        "move2": {
+            "id": "b7a05e3ab7a643a796a2459a0ecb9167",
+            "history": [],
+            "metrics": {}
+        },
+        "npm-cache.zip": {
+            "id": "5560d4edde7b445c9c382c4b0f6e6829",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-30T20:30:02.505-07:00",
+                    "policyEvaluationId": "18a18f6bddfa48f9bee44fd5a4ba60fb",
+                    "scanId": "4578b6c62add4acba2ec025e31b8ab82"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 4,
+                        "CRITICAL": 2
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 4,
+                        "CRITICAL": 2
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 4,
+                        "CRITICAL": 2
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 4,
+                        "CRITICAL": 2
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "py": {
+            "id": "c37a5043778447ac89fb7450080e4f9d",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-16T13:05:43.986-08:00",
+                    "policyEvaluationId": "679c9d881f0b4e0db66f2772a3176512",
+                    "scanId": "bff03276e5504737890b13403d8c9cdd"
+                },
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-16T09:17:49.702-08:00",
+                    "policyEvaluationId": "4ffc8b186b234948b12018078cd826cd",
+                    "scanId": "6bbbccfff9404896a1af2e8b6299ea4e"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 4,
+                        "SEVERE": 78,
+                        "CRITICAL": 24
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 4,
+                        "SEVERE": 78,
+                        "CRITICAL": 24
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 4,
+                        "SEVERE": 78,
+                        "CRITICAL": 24
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 4,
+                        "SEVERE": 78,
+                        "CRITICAL": 24
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "rust": {
+            "id": "6ee0cbd3118e495d81d2cf6a3171f9f9",
+            "history": [],
+            "metrics": {}
+        },
+        "sample_app": {
+            "id": "bf1818b418824f2ca288e6c6ce74846c",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-30T20:28:56.051-07:00",
+                    "policyEvaluationId": "caee959d5fa6493cb05c815cb0a1e896",
+                    "scanId": "a6ae87b5c10d48558f26e34abeecdb1a"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 18,
+                        "CRITICAL": 8
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 18,
+                        "CRITICAL": 8
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 18,
+                        "CRITICAL": 8
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 18,
+                        "CRITICAL": 8
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "sandbox-application": {
+            "id": "ce3e009d210b47e6875749ac34f67028",
+            "history": [],
+            "metrics": {}
+        },
+        "swift": {
+            "id": "ad0e1776e44a4bed84bf33c62defa8cd",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2021-01-31T14:44:41.512-08:00",
+                    "policyEvaluationId": "c1c312f20e434649ad0273f46cefc148",
+                    "scanId": "46c7af846e0b471b9bd3b140bd8b4180"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test1": {
+            "id": "80fbdfa762944090b132c4a77eac8a16",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-19T14:45:39.285-08:00",
+                    "policyEvaluationId": "4f0bbd98aa5d48b2a9387feac6f1d3f9",
+                    "scanId": "d22fa91616a14053af14682e7dfcc642"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 22,
+                        "CRITICAL": 18
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test10": {
+            "id": "eec5e13efe2a4d18ac8afd4bab44e578",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-19T07:31:36.494-08:00",
+                    "policyEvaluationId": "355a9388117b44abae8daaaec5c14f69",
+                    "scanId": "003b1945c8924c49ad369f3f2ae3d89d"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test2": {
+            "id": "d4294903ba9441fe810cb538e4e792c6",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-19T14:44:36.874-08:00",
+                    "policyEvaluationId": "fa5dbf2943e748fab9b1bd2e8d51ffe3",
+                    "scanId": "863ccd24be2148b2a9d61a6ecd537805"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 11,
+                        "SEVERE": 74,
+                        "CRITICAL": 55
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test3": {
+            "id": "0f89969e3d584ce1a382d77b1233ce28",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-11-19T14:45:26.324-08:00",
+                    "policyEvaluationId": "513953fcf113495b8aa4db30cf2d8d5e",
+                    "scanId": "605b4c26f09e437f92871cb06b02befa"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test31": {
+            "id": "24c4b745328c43a9a5bc0900171e67c2",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-12-01T15:36:51.000-08:00",
+                    "policyEvaluationId": "7ac40a98e7ba4f27967db49320517569",
+                    "scanId": "59f1ef9084ab414cb0bbb668f6ffa00b"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 38,
+                        "CRITICAL": 42
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 38,
+                        "CRITICAL": 42
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 38,
+                        "CRITICAL": 42
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 1,
+                        "SEVERE": 38,
+                        "CRITICAL": 42
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "test_delete": {
+            "id": "97f561a1864c4fedb7a49e22fb5e2a53",
+            "history": [],
+            "metrics": {}
+        },
+        "test_web": {
+            "id": "9e85f04fa7cb47ffbaa6368e41971364",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-12-14T11:52:56.847-08:00",
+                    "policyEvaluationId": "ae1704b2c6f54c30aad5c0347f11530a",
+                    "scanId": "50f3d49d4fea452fa16a425c18c3eb7b"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 3,
+                        "SEVERE": 37,
+                        "CRITICAL": 31
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "webgoat": {
+            "id": "38ae4cb715614a5ba57cff58a0bb2ffa",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2021-02-22T09:47:13.435-08:00",
+                    "policyEvaluationId": "9321729b40594cc5bf76490905023ac0",
+                    "scanId": "6d5e3b6ed7864c18a95313f5d47ecc3e"
+                },
+                {
+                    "stage": "release",
+                    "evaluationDate": "2020-10-30T20:27:35.550-07:00",
+                    "policyEvaluationId": "5506b54d844746dfa74f04a977c52902",
+                    "scanId": "6eee95b794814266bf6bfc6ce330322d"
+                },
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-27T15:58:16.514-07:00",
+                    "policyEvaluationId": "f48b4a17c4ab40398eb5578a4547d0b6",
+                    "scanId": "c5120fe4be774b6a9d7c607738e3b5f4"
+                },
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-23T13:57:45.298-07:00",
+                    "policyEvaluationId": "376985802d7c41f785cb50653d67e727",
+                    "scanId": "3793d6c6d0f14077bbd8d3e1990ebe7c"
+                },
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-22T10:00:48.247-07:00",
+                    "policyEvaluationId": "809f5f1454f743d59f58665e948dee2c",
+                    "scanId": "476f343ec1af46beb953665a2020e710"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": 71,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": 59,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 7,
+                        "SEVERE": 63,
+                        "CRITICAL": 63
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 2,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 12,
+                        "SEVERE": 113,
+                        "CRITICAL": 89
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": 138,
+                    "mttrModerateThreat": 138,
+                    "mttrSevereThreat": 138,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 2,
+                        "CRITICAL": 1
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 2,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 12,
+                        "SEVERE": 113,
+                        "CRITICAL": 90
+                    },
+                    "evaluationCount": 1
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 12,
+                        "SEVERE": 113,
+                        "CRITICAL": 90
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 12,
+                        "SEVERE": 113,
+                        "CRITICAL": 90
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        },
+        "webgoat2": {
+            "id": "d1064f18681e45ccab31e1a684e390a4",
+            "history": [
+                {
+                    "stage": "build",
+                    "evaluationDate": "2020-10-30T20:27:34.357-07:00",
+                    "policyEvaluationId": "4f794ca3c82f4ff9af3adf81c6133b28",
+                    "scanId": "fb967874d225489f900ee558a001fee4"
+                }
+            ],
+            "metrics": {
+                "2021-02": {
+                    "timePeriodStart": "2021-02",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-03": {
+                    "timePeriodStart": "2021-03",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-04": {
+                    "timePeriodStart": "2021-04",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                },
+                "2021-05": {
+                    "timePeriodStart": "2021-05",
+                    "mttrLowThreat": null,
+                    "mttrModerateThreat": null,
+                    "mttrSevereThreat": null,
+                    "mttrCriticalThreat": null,
+                    "discoveredCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "fixedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "waivedCounts": {
+                        "MODERATE": 0,
+                        "SEVERE": 0,
+                        "CRITICAL": 0
+                    },
+                    "openCountsAtTimePeriodEnd": {
+                        "MODERATE": 7,
+                        "SEVERE": 65,
+                        "CRITICAL": 60
+                    },
+                    "evaluationCount": 0
+                }
+            }
+        }
+    }
+}
