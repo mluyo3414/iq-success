@@ -6,7 +6,7 @@ from operator import itemgetter
 # import urllib
 
 
-authorization = ""
+authorization = "admin:Admin@123"
 iq_url = "http://localhost:8070"
 output_json_file = "results_1.json"
 app_filter = "__bad"
@@ -61,9 +61,11 @@ def main():
         component_name = value["displayName"]["name"]
         risky_components[component_name] = value["score"]
     risks_ = dict(sorted(risky_components.items(), key = itemgetter(1), reverse = True)[:top_number_of_components])
-    _row(devide())
     _row('Top '+ str(top_number_of_components) + " components with risk")
-    _row(str(risks_))
+    _row(devide())
+    for key in risks_:
+        _row(str(key) + ', ' + str(risks_[key]))
+    #_row(str(risks_))
 
     # TOP APPS WITH RISK
     total_risk = 0
@@ -81,12 +83,15 @@ def main():
     # Sorting by risk
     _row(devide())
     _row('Top '+ str(top_number_of_apps) + " applications with risk")
-    res = dict(sorted(application_risk.items(), key = itemgetter(1), reverse = True)[:top_number_of_apps])
+    _row(devide())
+    top_apps = dict(sorted(application_risk.items(), key = itemgetter(1), reverse = True)[:top_number_of_apps])
     # Deleting apps that start with z-
-    for k in list(res.keys()):
+    for k in list(top_apps.keys()):
         if k.startswith(app_starts_filter):
-            del res[k]
-    _row(str(res))
+            del top_apps[k]
+    for key in top_apps:
+        _row(str(key) + ', ' + str(top_apps[key]))
+    #_row(str(res))
     _row(devide())
     #MTTR
     mttr = get_metrics(date_range[0], date_range[-1])
@@ -97,6 +102,9 @@ def main():
         aggregations = value['aggregations']
         app_mttr = 0
         for aggregation in aggregations:
+            if aggregation['mttrLowThreat'] !=None:
+                total_mttr += aggregation['mttrLowThreat']
+                app_mttr += aggregation['mttrLowThreat']
             if aggregation['mttrModerateThreat'] !=None:
                 total_mttr += aggregation['mttrModerateThreat']
                 app_mttr += aggregation['mttrModerateThreat']
@@ -126,7 +134,8 @@ def main():
     _row(['open medium']+rep_data("all",_open,high))
     root_risk = total_risk/len(apps)
     _row('average risk,'+str(root_risk))
-    _row('root mttr,' + str(total_mttr/range_))
+    root_days = (int) ((total_mttr/(range_*4)) / (1000*60*60*24))
+    _row('root mttr,' + str(root_days))
     _row(devide())
 
     for org in orgs.values():
@@ -139,7 +148,8 @@ def main():
         _row(['open medium']+rep_data(name,_open,med))
         org_risk = risk[org['name']]/len(org['apps'])
         _row('average risk,'+str(org_risk))
-        _row('org mttr,' + str(org_mttr[org['name']]/range_))
+        days = (int) ((org_mttr[org['name']]/(range_*4))/ (1000*60*60*24))
+        _row('org mttr,' + str(days))
         _row(devide())
 
     _row(target_category)
