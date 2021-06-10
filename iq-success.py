@@ -10,9 +10,12 @@ authorization = "admin:Admin@123"
 iq_url = "http://localhost:8070"
 output_json_file = "results_1.json"
 app_filter = "__bad"
+app_starts_filter = 'z-'
 org_filter = "__bad"
 target_category = 'Distributed'
-number_of_applications = 15
+top_number_of_components = 15
+top_number_of_apps = 15
+range_ = 4
 
 #------------------------------
 cred = authorization.split(":")
@@ -20,7 +23,7 @@ iq_session = requests.Session()
 iq_session.auth = requests.auth.HTTPBasicAuth(cred[0], cred[1])
 iq_session.cookies.set('CLM-CSRF-TOKEN', 'api')
 iq_headers = {'X-CSRF-TOKEN': 'api', 'Content-Type': 'application/json', 'Accept': 'application/json'}
-orgs, apps, tags, report, target, csv, risk, application_risk  = {}, {}, {}, {}, [], [], {}, {}
+orgs, apps, tags, report, target, csv, risk, application_risk, components, risky_components, mttr, org_mttr  = {}, {}, {}, {}, [], [], {}, {}, {}, {}, {}, {}
 
 #------------------------------
 # last 3 month
@@ -47,28 +50,70 @@ def main():
     _row(['apps onboarded']+dd)
     _row(devide())
 
-    # MTTR for root
-    # MTTR for each sub
+    # COMPONENTS AND RISK
     risk = get_app_risk()
-	
+    components_risk = get_component_risk()
     apps_ = risk['dashboardResults']
+    components_ = components_risk['dashboardResults']
+    
+    # TOP COMPONENT WITH RISK 
+    for value in components_:
+        component_name = value["displayName"]["name"]
+        risky_components[component_name] = value["score"]
+    risks_ = dict(sorted(risky_components.items(), key = itemgetter(1), reverse = True)[:top_number_of_components])
+    _row(devide())
+    _row('Top '+ str(top_number_of_components) + " components with risk")
+    _row(str(risks_))
+
+    # TOP APPS WITH RISK
     total_risk = 0
     for value in apps_:
         application_name = value['applicationName']
         application_risk[application_name] = value['totalApplicationRisk']['totalRisk']
         org = value['organizationName']
+        # Total risk for all orgs
         total_risk += value['totalApplicationRisk']['totalRisk']
+        # Adding risks per org
         if org not in risk:
             risk[org] = value['totalApplicationRisk']['totalRisk']
         else:
             risk[org] += value['totalApplicationRisk']['totalRisk']
-    #sorting by risk
-    #dict(sorted(application_risk.items(), key=lambda item: item[1]))
+    # Sorting by risk
     _row(devide())
-    _row('Top '+ str(number_of_applications) + " applications with risk")
-    res = dict(sorted(application_risk.items(), key = itemgetter(1), reverse = True)[:number_of_applications])
+    _row('Top '+ str(top_number_of_apps) + " applications with risk")
+    res = dict(sorted(application_risk.items(), key = itemgetter(1), reverse = True)[:top_number_of_apps])
+    # Deleting apps that start with z-
+    for k in list(res.keys()):
+        if k.startswith(app_starts_filter):
+            del res[k]
     _row(str(res))
     _row(devide())
+    #MTTR
+    mttr = get_metrics(date_range[0], date_range[-1])
+    total_mttr = 0    
+    for value in mttr:
+        application_name = value['applicationName']
+        org = value['organizationName']
+        aggregations = value['aggregations']
+        app_mttr = 0
+        for aggregation in aggregations:
+            if aggregation['mttrModerateThreat'] !=None:
+                total_mttr += aggregation['mttrModerateThreat']
+                app_mttr += aggregation['mttrModerateThreat']
+            if aggregation['mttrSevereThreat'] !=None:
+                total_mttr += aggregation['mttrSevereThreat']
+                app_mttr += aggregation['mttrSevereThreat']
+            if aggregation['mttrCriticalThreat'] !=None:
+                total_mttr += aggregation['mttrCriticalThreat']
+                app_mttr += aggregation['mttrCriticalThreat']
+            
+        if org not in org_mttr:
+            org_mttr[org] = app_mttr
+        else:
+            org_mttr[org] += app_mttr
+  
+
+
     _row('All applications')
     _row(devide())
     _row(header)
@@ -81,6 +126,7 @@ def main():
     _row(['open medium']+rep_data("all",_open,high))
     root_risk = total_risk/len(apps)
     _row('average risk,'+str(root_risk))
+    _row('root mttr,' + str(total_mttr/range_))
     _row(devide())
 
     for org in orgs.values():
@@ -93,6 +139,7 @@ def main():
         _row(['open medium']+rep_data(name,_open,med))
         org_risk = risk[org['name']]/len(org['apps'])
         _row('average risk,'+str(org_risk))
+        _row('org mttr,' + str(org_mttr[org['name']]/range_))
         _row(devide())
 
     _row(target_category)
@@ -120,24 +167,6 @@ def main():
         _row(['open medium']+rep_data(name,_open,med))
         _row(devide())
 
-
-        # ---
-        # Average Total Risk score for root organization
-        # Average Total Risk score for each sub-organization
-
-  
-
-
-
-	# for item in app_risks:
- 	# 	app_risk = item['totalRisk']
- 	# 	total_risk += app_risk
-# ---
-# Top 15 apps with highest Total Risk
-# Top 15 components with the highest Total Risk score in the root
-# Top 15 components used across the most applications in the root
-
-# ---
 
 
     build_csv()
@@ -213,7 +242,7 @@ def get_url(url):
 def set_up():
     global today, date_range
     today = datetime.date.today()
-    date_range = [get_month(rr) for rr in reversed(range(4))]
+    date_range = [get_month(rr) for rr in reversed(range(range_))]
     set_orgs()
     set_categories()
     set_applications()
@@ -407,9 +436,27 @@ def get_app_risk():
         "SECURITY,LICENSE,QUALITY,OTHER"
     }
     resp = post_url(url, payload)
-
     return resp
 
+def get_component_risk():
+    url = f'/rest/dashboard/policy/componentRisks'
+    payload = {
+        "orderBy":
+        "-TOTAL_RISK",
+        "maxResults":
+        100,
+        "stageIds": ["source", "build", "stage-release", "release", "operate"],
+        "policyViolationStates": ["OPEN"],
+        "maxDaysOld":
+        30,
+        "policyThreatLevelRange":
+        "2,10",
+        "policyThreatCategories":
+        "SECURITY,LICENSE,QUALITY,OTHER"
+    }
+    resp = post_url(url, payload)
+
+    return resp
 def handle_data(data):
     # formatting period to year and month
     name = "timePeriodStart"
