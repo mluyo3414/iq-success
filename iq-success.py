@@ -6,7 +6,7 @@ from operator import itemgetter
 # import urllib
 
 
-authorization = "admin:Admin@123"
+authorization = ""
 iq_url = "http://localhost:8070"
 output_json_file = "results_1.json"
 app_filter = "__bad"
