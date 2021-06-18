@@ -6,7 +6,7 @@ from operator import itemgetter
 # import urllib
 
 
-
+authorization = "user:pass"
 iq_url = "http://localhost:8070"
 output_json_file = "results_1.json"
 # TODO: this might be repeated
